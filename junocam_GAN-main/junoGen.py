@@ -1,5 +1,3 @@
-# Author: Jacob Dawson
-# just a simple script for generating images using the trained GAN.
 
 import tensorflow as tf
 import numpy as np
