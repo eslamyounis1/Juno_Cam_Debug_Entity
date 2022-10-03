@@ -1,13 +1,3 @@
-# Author: Jacob Dawson
-#
-# The idea for this script is to just scrape images available to the public on the Junocam website.
-# Each image is available at a link like the following:
-# https://www.missionjuno.swri.edu/junocam/processing?id=13190
-# The above image is a user-made image.
-# Importantly, we want this script to be able to put user-made images in one folder, and raw data in another.
-# This is because the GAN will need to have the two categories separate for training.
-# Note: this script breaks easily, and I had to mess with it a lot to get a proper dataset to work with.
-# Good luck!
 
 from bs4 import BeautifulSoup # this will be used to navigate the website
 import requests # grabs the HTML
