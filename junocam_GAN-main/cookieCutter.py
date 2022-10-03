@@ -1,8 +1,3 @@
-# Author: Jacob Dawson
-# The goal of this file is to make a script which will take an image of some
-# size (say, 1600x1600) and "cut" it (say, into 64 images each of size 200x200).
-# in this way, we'll create a larger number of smaller files which we can fit
-# more of into the junogan train set. More importantly, no loss of resolution!
 
 import os
 import numpy as np
