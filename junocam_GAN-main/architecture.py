@@ -1,10 +1,4 @@
-# Author: Jacob Dawson
-#
-# This file is just for creating the two networks (the generator and the
-# discriminator). It will then be imported by junoGAN.py to construct the
-# GAN model overall.
-# This is important because it means that here, we can really play around
-# with architectural decisions.
+
 from tensorflow import keras
 import tensorflow as tf
 from constants import *
