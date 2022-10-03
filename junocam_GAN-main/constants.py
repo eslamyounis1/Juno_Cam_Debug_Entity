@@ -1,9 +1,3 @@
-# Author: Jacob Dawson
-# this file contains a bunch of constants that control the construction
-# and processing of our data. These include hyperparameters and certain
-# numbers that control preprocessing.
-#
-# CONSTANTS
 seed = 3 # my lucky number!
 batch_size = 32 # unsure what my computer can handle haha
 num_channels = 3 # rgb!
